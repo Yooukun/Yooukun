@@ -1,6 +1,6 @@
-# 内容：lol wildrift
-# 数量：17条
+# lol wildrift
 USER-AGENT,*riot*
 DOMAIN-KEYWORD,riot
 DOMAIN,riot*.com
+DOMAIN,riot.com
 DOMAIN-SUFFIX,riot*.com
