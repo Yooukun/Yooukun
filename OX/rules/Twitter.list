@@ -1,0 +1,35 @@
+# OX / Twitter; generated from pinned source and local edits; GPL-2.0
+# Source: blackmatrix7/ios_rule_script @ aa137cf64cda1474352875cc7e01b6f7d087cc0d
+# Original source and license: sources/upstream/; modifications: policy binding, normalization, exact deduplication.
+host-suffix, ads-twitter.com, X推特
+host-suffix, cms-twdigitalassets.com, X推特
+host-suffix, grok.com, X推特
+host-suffix, periscope.tv, X推特
+host-suffix, pscp.tv, X推特
+host-suffix, t.co, X推特
+host-suffix, tellapart.com, X推特
+host-suffix, tweetdeck.com, X推特
+host-suffix, twimg.co, X推特
+host-suffix, twimg.com, X推特
+host-suffix, twimg.org, X推特
+host-suffix, twitpic.com, X推特
+host-suffix, twitter.biz, X推特
+host-suffix, twitter.com, X推特
+host-suffix, twitter.jp, X推特
+host-suffix, twittercommunity.com, X推特
+host-suffix, twitterflightschool.com, X推特
+host-suffix, twitterinc.com, X推特
+host-suffix, twitteroauth.com, X推特
+host-suffix, twitterstat.us, X推特
+host-suffix, twtrdns.net, X推特
+host-suffix, twttr.com, X推特
+host-suffix, twttr.net, X推特
+host-suffix, twvid.com, X推特
+host-suffix, vine.co, X推特
+host-suffix, x.com, X推特
+ip-cidr, 192.133.76.0/22, X推特
+ip-cidr, 199.59.148.0/22, X推特
+ip-cidr, 199.96.56.0/21, X推特
+ip-cidr, 202.160.128.0/22, X推特
+ip-cidr, 209.237.192.0/19, X推特
+ip-cidr, 69.195.160.0/19, X推特

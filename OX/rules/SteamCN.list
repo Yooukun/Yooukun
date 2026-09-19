@@ -1,0 +1,20 @@
+# OX / SteamCN; generated from pinned source and local edits; GPL-2.0
+# Source: blackmatrix7/ios_rule_script @ aa137cf64cda1474352875cc7e01b6f7d087cc0d
+# Original source and license: sources/upstream/; modifications: policy binding, normalization, exact deduplication.
+host, csgo.wmsj.cn, Steam下载
+host, dl.steam.clngaa.com, Steam下载
+host, dl.steam.ksyna.com, Steam下载
+host, dota2.wmsj.cn, Steam下载
+host, st.dl.bscstorage.net, Steam下载
+host, st.dl.eccdnx.com, Steam下载
+host, st.dl.pinyuncloud.com, Steam下载
+host, steampipe.steamcontent.tnkjmec.com, Steam下载
+host, steampowered.com.8686c.com, Steam下载
+host, steamstatic.com.8686c.com, Steam下载
+host, wmsjsteam.com, Steam下载
+host, xz.pphimalayanrt.com, Steam下载
+host-suffix, cm.steampowered.com, Steam下载
+host-suffix, steamchina.com, Steam下载
+host-suffix, steamcontent.com, Steam下载
+host-suffix, steamserver.net, Steam下载
+host-suffix, steamusercontent.com, Steam下载

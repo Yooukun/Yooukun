@@ -1,0 +1,6 @@
+# OX / Claude; generated from pinned source and local edits; GPL-2.0
+# Source: blackmatrix7/ios_rule_script @ aa137cf64cda1474352875cc7e01b6f7d087cc0d
+# Original source and license: sources/upstream/; modifications: policy binding, normalization, exact deduplication.
+host-suffix, claude.com, Claude
+host-suffix, anthropic.com, Claude
+host-suffix, claude.ai, Claude

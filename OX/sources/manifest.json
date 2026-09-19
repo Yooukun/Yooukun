@@ -1,0 +1,132 @@
+{
+  "repository": "blackmatrix7/ios_rule_script",
+  "revision": "aa137cf64cda1474352875cc7e01b6f7d087cc0d",
+  "license": "GPL-2.0",
+  "files": [
+    {
+      "file": "Lan.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Lan/Lan.list",
+      "sha256": "425e0f47a5aee9268c4adab4ddfa9569db144148a1224f1ed7954134484e3eb4"
+    },
+    {
+      "file": "OpenAI.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/OpenAI/OpenAI.list",
+      "sha256": "6ec16f5da986a15c62e80192f5b445dcdaf88607987923120761c1388eeb243d"
+    },
+    {
+      "file": "Claude.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Claude/Claude.list",
+      "sha256": "bcf41ba79464a16d8305cf1c6f18c69d023ccd33ea1b84834daaa47cc0d5dfea"
+    },
+    {
+      "file": "SteamCN.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/SteamCN/SteamCN.list",
+      "sha256": "28283562bf044cc37a7b835209687229af1765df3afba63057a2660bd7d0d373"
+    },
+    {
+      "file": "Steam.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Steam/Steam.list",
+      "sha256": "a69fc21f4e9203ebb7888c70b4ba0210233bbcf41356ba9df78d1c8e026b28c7"
+    },
+    {
+      "file": "PayPal.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/PayPal/PayPal.list",
+      "sha256": "fb24ac2d5774d16dfd2a43475846a673158fa9ed273b93bf1225726a378fcff8"
+    },
+    {
+      "file": "Telegram.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Telegram/Telegram.list",
+      "sha256": "986f8e7d587ce42c3bb472e6a2e9cffd42a413240d32c02cc363c4d6367141fe"
+    },
+    {
+      "file": "Twitter.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Twitter/Twitter.list",
+      "sha256": "71cc825be928852e43158d45075e036fad558d0d212c0703c192ed5651bbfcb4"
+    },
+    {
+      "file": "YouTube.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/YouTube/YouTube.list",
+      "sha256": "6c011f1b2d03f664799bd8f01718bef9c8b071209d5602bfed18bb5db4a8c9e4"
+    },
+    {
+      "file": "Netflix.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Netflix/Netflix.list",
+      "sha256": "eb95ba340fc9b3013e6b66a64270d20e4142b0f9b8cde1bac060725742331ec7"
+    },
+    {
+      "file": "Disney.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Disney/Disney.list",
+      "sha256": "f2682e12018f9019b2edae52ceee57cb1964d792ae4b3647c88b81f30fe41022"
+    },
+    {
+      "file": "HBO.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/HBO/HBO.list",
+      "sha256": "824fcce1ad8bee157a94e048a4130832cc1d21d843cbdea86def1c378ec59b3d"
+    },
+    {
+      "file": "TikTok.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/TikTok/TikTok.list",
+      "sha256": "d1e594680d94bec9575ebc584d03c224c8ac5b74daba1fa8f87b44f48b7724bb"
+    },
+    {
+      "file": "BiliBili.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/BiliBili/BiliBili.list",
+      "sha256": "fd0f422e30fb78a490adfd23cae3cb02ddc9c85a1a1c46a1e620c2de5b987df6"
+    },
+    {
+      "file": "NetEaseMusic.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/NetEaseMusic/NetEaseMusic.list",
+      "sha256": "ae0d9cf90dadc662ed0cd5e127cd6e5927ac5acd9f66d85aa43615e456208291"
+    },
+    {
+      "file": "DouYin.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/DouYin/DouYin.list",
+      "sha256": "b0a97cce51413ab7f1ae2ea79cae859683cb239b86a78e8e92395b0c177902aa"
+    },
+    {
+      "file": "Weibo.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Weibo/Weibo.list",
+      "sha256": "1699c8fbc366874880b1b96c4288269c41c595213bb23b5dbce702e56066d6a6"
+    },
+    {
+      "file": "Riot.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Riot/Riot.list",
+      "sha256": "573e81bcb2e1efdf47dda085e1d1b57c91490d1fb58d36e681b9626e798087b3"
+    },
+    {
+      "file": "Speedtest.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Speedtest/Speedtest.list",
+      "sha256": "4b381b07ff8fe7403579adbc95fffe1ae1b90008f55dd312e3485f4706063c71"
+    },
+    {
+      "file": "Apple.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Apple/Apple.list",
+      "sha256": "c3ae54151146e8293dc4e676c7b076be02393593c08dadffc27d38616c0ef698"
+    },
+    {
+      "file": "Microsoft.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Microsoft/Microsoft.list",
+      "sha256": "7de40c9424a4a1ab793a38f58dbf64c25ef68f9e812618abf3751a853561c800"
+    },
+    {
+      "file": "Google.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/Google/Google.list",
+      "sha256": "eb56706413fab41ded77194ae73f690af583bd56ad7d470273e026fa5ccb7b93"
+    },
+    {
+      "file": "GlobalMedia.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/GlobalMedia/GlobalMedia.list",
+      "sha256": "c56e0f4c6309ad496dba37c7be8a0e53c17c7a1f3028c62be16e91f9744032d8"
+    },
+    {
+      "file": "ChinaMax.list",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/rule/QuantumultX/ChinaMax/ChinaMax.list",
+      "sha256": "160ace11c1487b2c0dc05282aa85316e09b33af143f360cad94da534ec47b2e6"
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/aa137cf64cda1474352875cc7e01b6f7d087cc0d/LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+    }
+  ]
+}

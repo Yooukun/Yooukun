@@ -1,0 +1,207 @@
+[
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
+    "status": 200,
+    "bytes": 1217,
+    "sha256": "0789504d97d8f5b14513c529c61c06f4f862c5cfd20f7cb30bbcd38357e54468"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
+    "status": 200,
+    "bytes": 1048,
+    "sha256": "016837560f1f0eeb576f81600c95b547bd82e27ba27a175a3b5010de9bd18ffa"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list",
+    "status": 200,
+    "bytes": 574,
+    "sha256": "3d111a3c69cb332cdec9c6283acbc9e0c17a62cc25abf43a3390e1667c6861dc"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list",
+    "status": 200,
+    "bytes": 795,
+    "sha256": "074d94bc66219f7a229a0ddc7150e3befb088b4fbbe3312dc3f95456b2fef96c"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
+    "status": 200,
+    "bytes": 922,
+    "sha256": "7b2e60cd0bf3c4bfb1369890d39cc3783bdfcb016089b78acee0ff6f0d4e51c5"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Netflix.list",
+    "status": 200,
+    "bytes": 1063,
+    "sha256": "2bd0f2e8e3059e1b2394291500b05cf3b97da6788c76ad63731c7eddbc7abf04"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/Yooukun/Yooukun/585d5c724900614192585b0936cb6f760bf0e3ce/HBO.list",
+    "status": 200,
+    "bytes": 580,
+    "sha256": "23398119d0a2c0f056edcb68684cb9a1508fba7283d7c120016977a249c9aa90"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/Jia-6/NET/main/Ruleset/SpeedTest.list",
+    "status": 404
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list",
+    "status": 200,
+    "bytes": 479,
+    "sha256": "483f613b31a1c054ddfffa6584b449f4447944ea58b8c1fc06b67eb13c09db89"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list",
+    "status": 200,
+    "bytes": 316,
+    "sha256": "ff968d35bc3edf6c9470cd524d4042488de468bee79ebc6b35491e5029415d27"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list",
+    "status": 200,
+    "bytes": 418,
+    "sha256": "5e9d81d4615d993fb899d11f761ff5272465bf11e52233c656c3c3e4ab9cd800"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/DisneyPlus.list",
+    "status": 200,
+    "bytes": 710,
+    "sha256": "97200f549abb5bbb72909abc58afbffdb1f42f35cbcc35366eaf873905e007c6"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/Jia-6/NET/main/Ruleset/WinkTV.list",
+    "status": 404
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list",
+    "status": 200,
+    "bytes": 12615,
+    "sha256": "3792437f9641479c671ed57e4d3aa81505c5f7dc5d9087fdeabe76551ecda671"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/Jia-6/NET/main/Ruleset/Proxyown.list",
+    "status": 404
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list",
+    "status": 200,
+    "bytes": 17251,
+    "sha256": "362edd1f605742b360eaf138f151d7eea96cc17f20ef12da73acbfb80c350e08"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list",
+    "status": 200,
+    "bytes": 7257,
+    "sha256": "cbc63e3daee0c0467558394ce0cfdd342f28e6c0f903bc4b35b6a5f06279d160"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list",
+    "status": 200,
+    "bytes": 928,
+    "sha256": "62b72d16b8f2bcbc80eb2c7af35dc03b31c4d82e732af6d227c2a311f04bdadc"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/Netease%20Music.list",
+    "status": 200,
+    "bytes": 1112,
+    "sha256": "eebac99a52dab87a96d52a05d4b1434c937d4639b1ee879899a9a2833034385a"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/Yooukun/Yooukun/1bbe8254bb16bee92376e7de567ccfd163cd7e1d/paypal.list",
+    "status": 200,
+    "bytes": 81,
+    "sha256": "29560cb1cc3258d0cf18652d779c8408bb0241ad856b63d40ce3d1b2fc236da2"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/Yooukun/Yooukun/1bbe8254bb16bee92376e7de567ccfd163cd7e1d/pornhub.list",
+    "status": 200,
+    "bytes": 112,
+    "sha256": "f83fb2230474caa2730ff6ecc6968ec449e45ffcb5cc2f8595767a580b5a8fbc"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/DouYin.list",
+    "status": 200,
+    "bytes": 479,
+    "sha256": "57c89c5ce380765806d5dc05a2817b8176ad10dd273cc3a9eda5f939f7705e2f"
+  },
+  {
+    "section": "[filter_remote]",
+    "url": "https://raw.githubusercontent.com/Yooukun/Yooukun/271169a76d244087c64f485b7f79f8a32cc133e5/lol%20wildrift.list",
+    "status": 200,
+    "bytes": 116,
+    "sha256": "c4364d452a53effdc090110ad73634456de7d94922bafb6e482074907820c294"
+  },
+  {
+    "section": "[rewrite_remote]",
+    "url": "https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/General.conf",
+    "status": 404
+  },
+  {
+    "section": "[rewrite_local]",
+    "url": "https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js",
+    "status": 200,
+    "bytes": 730,
+    "sha256": "ca59abe1e1eebd4a0158c39bb52b88c452b4fdd05b3fd1db1f229513d18f79d4",
+    "script_apis": [
+      "$done",
+      "$request",
+      "$response"
+    ],
+    "note": "Downloaded for static review only; not executed; API compatibility and current app behavior unverified."
+  },
+  {
+    "section": "[rewrite_local]",
+    "url": "https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js",
+    "status": 200,
+    "bytes": 9564,
+    "sha256": "61e0ce6a875c122e76fd2b2c95eed850b188e462c7c910d3f483f76fbb8599b1",
+    "script_apis": [
+      "$done",
+      "$request",
+      "$response"
+    ],
+    "note": "Downloaded for static review only; not executed; API compatibility and current app behavior unverified."
+  },
+  {
+    "section": "[rewrite_local]",
+    "url": "https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js",
+    "status": 200,
+    "bytes": 20555,
+    "sha256": "1c79eae76d42dd3441de7ad27e6aab7bcebc59485e7a73841accb66ba95d595f",
+    "script_apis": [
+      "$done",
+      "$httpClient",
+      "$notification",
+      "$notify",
+      "$persistentStore",
+      "$prefs",
+      "$request",
+      "$response",
+      "$task"
+    ],
+    "note": "Downloaded for static review only; not executed; API compatibility and current app behavior unverified."
+  }
+]

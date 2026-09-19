@@ -1,0 +1,4 @@
+# Official migration notice: https://m.winktv.co.kr/policy/claim
+# WinkTV closed 2025-06-02 and transferred to PandaTV. Core domains only; playback CDN pending device evidence.
+host-suffix, winktv.co.kr, 韩国直播
+host-suffix, pandalive.co.kr, 韩国直播

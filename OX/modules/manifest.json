@@ -1,0 +1,30 @@
+[
+  {
+    "file": "wb_launch.js",
+    "source": "https://raw.githubusercontent.com/yichahucha/surge/06d6e36771880959c008d3c59c192068f00ddd51/wb_launch.js",
+    "sha256": "ca59abe1e1eebd4a0158c39bb52b88c452b4fdd05b3fd1db1f229513d18f79d4",
+    "license": "GPL-3.0",
+    "modified": false
+  },
+  {
+    "file": "wb_ad.js",
+    "source": "https://raw.githubusercontent.com/yichahucha/surge/06d6e36771880959c008d3c59c192068f00ddd51/wb_ad.js",
+    "sha256": "61e0ce6a875c122e76fd2b2c95eed850b188e462c7c910d3f483f76fbb8599b1",
+    "license": "GPL-3.0",
+    "modified": false
+  },
+  {
+    "file": "nf_rating.js",
+    "source": "https://raw.githubusercontent.com/yichahucha/surge/06d6e36771880959c008d3c59c192068f00ddd51/nf_rating.js",
+    "sha256": "1c79eae76d42dd3441de7ad27e6aab7bcebc59485e7a73841accb66ba95d595f",
+    "license": "GPL-3.0",
+    "modified": false
+  },
+  {
+    "file": "LICENSE",
+    "source": "https://raw.githubusercontent.com/yichahucha/surge/06d6e36771880959c008d3c59c192068f00ddd51/LICENSE",
+    "sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+    "license": "GPL-3.0",
+    "modified": false
+  }
+]

@@ -1,0 +1,12 @@
+# OX / DouYin; generated from pinned source and local edits; GPL-2.0
+# Source: blackmatrix7/ios_rule_script @ aa137cf64cda1474352875cc7e01b6f7d087cc0d
+# Original source and license: sources/upstream/; modifications: policy binding, normalization, exact deduplication.
+host-suffix, douyin.com, 抖音
+host, lf3-static.bytednsdoc.com, 抖音
+host, v5-dy-o-abtest.zjcdn.com, 抖音
+host-suffix, amemv.com, 抖音
+host-suffix, douyincdn.com, 抖音
+host-suffix, douyinpic.com, 抖音
+host-suffix, douyinstatic.com, 抖音
+host-suffix, douyinvod.com, 抖音
+host-suffix, idouyinvod.com, 抖音

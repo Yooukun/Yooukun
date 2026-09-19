@@ -1,0 +1,2 @@
+# Official application domain list: https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions
+host-suffix, claude.com, Claude

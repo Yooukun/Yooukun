@@ -1,0 +1,25 @@
+# OX / TikTok; generated from pinned source and local edits; GPL-2.0
+# Source: blackmatrix7/ios_rule_script @ aa137cf64cda1474352875cc7e01b6f7d087cc0d
+# Original source and license: sources/upstream/; modifications: policy binding, normalization, exact deduplication.
+host, lf16-effectcdn.byteeffecttos-g.com, TikTok
+host, lf16-pkgcdn.pitaya-clientai.com, TikTok
+host, p16-tiktokcdn-com.akamaized.net, TikTok
+host-suffix, bytegecko-i18n.com, TikTok
+host-suffix, byteintlapi.com, TikTok
+host-suffix, byteoversea.com, TikTok
+host-suffix, ibytedtos.com, TikTok
+host-suffix, ibyteimg.com, TikTok
+host-suffix, ipstatp.com, TikTok
+host-suffix, isnssdk.com, TikTok
+host-suffix, muscdn.com, TikTok
+host-suffix, musical.ly, TikTok
+host-suffix, sgpstatp.com, TikTok
+host-suffix, tik-tokapi.com, TikTok
+host-suffix, tiktok.com, TikTok
+host-suffix, tiktokcdn-us.com, TikTok
+host-suffix, tiktokcdn.com, TikTok
+host-suffix, tiktokd.net, TikTok
+host-suffix, tiktokd.org, TikTok
+host-suffix, tiktokmusic.app, TikTok
+host-suffix, tiktokv.com, TikTok
+host-suffix, tiktokv.us, TikTok
