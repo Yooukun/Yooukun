@@ -6921,7 +6921,7 @@
       "service": "PayPal",
       "rule": [
         "user-agent",
-        "paypal*"
+        "PayPal*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -6977,7 +6977,7 @@
       "service": "YouTube",
       "rule": [
         "user-agent",
-        "*youtubemusic*"
+        "*YouTubeMusic*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7001,7 +7001,7 @@
       "service": "YouTube",
       "rule": [
         "user-agent",
-        "youtube*"
+        "YouTube*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7009,7 +7009,7 @@
       "service": "YouTube",
       "rule": [
         "user-agent",
-        "youtubemusic*"
+        "YouTubeMusic*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7081,7 +7081,7 @@
       "service": "Netflix",
       "rule": [
         "user-agent",
-        "argo*"
+        "Argo*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7089,7 +7089,7 @@
       "service": "Disney",
       "rule": [
         "user-agent",
-        "disney+*"
+        "Disney+*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7097,7 +7097,7 @@
       "service": "HBO",
       "rule": [
         "user-agent",
-        "hbo%20now*"
+        "HBO%20NOW*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7105,7 +7105,7 @@
       "service": "HBO",
       "rule": [
         "user-agent",
-        "hbomax*"
+        "HBOMAX*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7185,7 +7185,7 @@
       "service": "TikTok",
       "rule": [
         "user-agent",
-        "tiktok*"
+        "TikTok*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7201,7 +7201,7 @@
       "service": "BiliBili",
       "rule": [
         "user-agent",
-        "bilibili*"
+        "Bilibili*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7225,7 +7225,7 @@
       "service": "NetEaseMusic",
       "rule": [
         "user-agent",
-        "%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*"
+        "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7233,7 +7233,7 @@
       "service": "NetEaseMusic",
       "rule": [
         "user-agent",
-        "neteasemusic*"
+        "NeteaseMusic*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7361,7 +7361,7 @@
       "service": "Speedtest",
       "rule": [
         "user-agent",
-        "speedtest*"
+        "SpeedTest*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7545,7 +7545,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "*findmyiphone?"
+        "*FindMyiPhone?"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7553,7 +7553,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "*music?"
+        "*Music?"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7561,7 +7561,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "*weatherfoundation*"
+        "*WeatherFoundation*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7569,7 +7569,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "*com.apple.maps?"
+        "*com.apple.Maps?"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7585,7 +7585,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "fmdclient*"
+        "FMDClient*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7593,7 +7593,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "fmfd*"
+        "FMFD*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7601,7 +7601,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "findmyfriends*"
+        "FindMyFriends*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7609,7 +7609,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "findmyiphone*"
+        "FindMyiPhone*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7617,7 +7617,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "maps*"
+        "Maps*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7625,7 +7625,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "wallet*"
+        "Wallet*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7633,7 +7633,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "com.apple.maps"
+        "com.apple.Maps"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7681,7 +7681,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "music*"
+        "Music*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7689,7 +7689,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "applenews*"
+        "AppleNews*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7713,7 +7713,7 @@
       "service": "Apple",
       "rule": [
         "user-agent",
-        "appletv*"
+        "AppleTV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7769,7 +7769,7 @@
       "service": "Microsoft",
       "rule": [
         "user-agent",
-        "microsoft*"
+        "Microsoft*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7777,7 +7777,7 @@
       "service": "Microsoft",
       "rule": [
         "user-agent",
-        "onedrive*"
+        "OneDrive*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7785,7 +7785,7 @@
       "service": "Microsoft",
       "rule": [
         "user-agent",
-        "onedriveiosapp*"
+        "OneDriveiOSApp*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7833,7 +7833,7 @@
       "service": "Google",
       "rule": [
         "user-agent",
-        "%e4%ba%91%e7%ab%af%e7%a1%ac%e7%9b%98*"
+        "%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7841,7 +7841,7 @@
       "service": "Google",
       "rule": [
         "user-agent",
-        "*com.google.drive*"
+        "*com.google.Drive*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -7849,7 +7849,7 @@
       "service": "Google",
       "rule": [
         "user-agent",
-        "google.drive*"
+        "Google.Drive*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8153,7 +8153,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "*spotify*"
+        "*Spotify*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8161,7 +8161,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "abematv*"
+        "AbemaTV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8169,7 +8169,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "all4*"
+        "All4*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8177,7 +8177,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "anime*"
+        "Anime*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8185,7 +8185,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "appletv*"
+        "AppleTV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8193,7 +8193,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "argo*"
+        "Argo*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8201,7 +8201,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "bbciplayer*"
+        "BBCiPlayer*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8209,7 +8209,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "dazn*"
+        "DAZN*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8217,7 +8217,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "dplus*"
+        "DPlus*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8225,7 +8225,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "deezer*"
+        "Deezer*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8233,7 +8233,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "disney*"
+        "Disney*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8241,7 +8241,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "disney+*"
+        "Disney+*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8249,7 +8249,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "fox%20now*"
+        "FOX%20NOW*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8257,7 +8257,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "foxnow*"
+        "FOXNOW*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8265,7 +8265,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "foxplus*"
+        "FOXPlus*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8273,7 +8273,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "hbo%20go%20prod%20hkg*"
+        "HBO%20GO%20PROD%20HKG*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8281,7 +8281,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "hbo%20go%20prod*"
+        "HBO%20GO%20PROD*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8289,7 +8289,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "hbo%20now*"
+        "HBO%20NOW*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8297,7 +8297,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "hbo*"
+        "HBO*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8305,7 +8305,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "hbogoprodhkg*"
+        "HBOGOPRODHKG*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8313,7 +8313,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "hbomax*"
+        "HBOMAX*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8321,7 +8321,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "hbonow*"
+        "HBONOW*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8329,7 +8329,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "hwtvmobile*"
+        "HWTVMobile*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8337,7 +8337,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "himalaya*"
+        "Himalaya*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8345,7 +8345,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "hulu*"
+        "Hulu*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8353,7 +8353,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "itv_player*"
+        "ITV_Player*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8361,7 +8361,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "instantvideo.us*"
+        "InstantVideo.US*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8369,7 +8369,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "joox*"
+        "JOOX*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8377,7 +8377,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "kktv*"
+        "KKTV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8385,7 +8385,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "line%20tv*"
+        "LINE%20TV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8393,7 +8393,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "line*"
+        "LINE*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8401,7 +8401,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "linetv*"
+        "LINETV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8409,7 +8409,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "max*"
+        "Max*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8417,7 +8417,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "my5*"
+        "My5*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8425,7 +8425,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "naver%20tv*"
+        "Naver%20TV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8433,7 +8433,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "navertv*"
+        "NaverTV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8441,7 +8441,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "niconico*"
+        "Niconico*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8449,7 +8449,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "overcast*"
+        "Overcast*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8457,7 +8457,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "pbs*"
+        "PBS*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8465,7 +8465,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "pplus*"
+        "PPlus*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8473,7 +8473,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "pandora*"
+        "Pandora*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8481,7 +8481,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "peacockmobile*"
+        "PeacockMobile*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8489,7 +8489,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "prime%20video*"
+        "Prime%20Video*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8497,7 +8497,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "primevideo*"
+        "PrimeVideo*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8505,7 +8505,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "soundcloud*"
+        "SoundCloud*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8513,7 +8513,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "spotify*"
+        "Spotify*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8521,7 +8521,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "tidal*"
+        "TIDAL*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8529,7 +8529,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "tidal*dia"
+        "TIDAL*dia"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8537,7 +8537,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "tver-release*"
+        "TVer-Release*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8545,7 +8545,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "taiwangood*"
+        "TaiwanGood*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8553,7 +8553,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "tiktok*"
+        "TikTok*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8561,7 +8561,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "viu*"
+        "Viu*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8569,7 +8569,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "viutv*"
+        "ViuTV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8577,7 +8577,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "wemusic*"
+        "WeMusic*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8585,7 +8585,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "wetv*"
+        "WeTV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8633,7 +8633,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "encoretvb*"
+        "encoreTVB*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8649,7 +8649,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "*youtubemusic*"
+        "*YouTubeMusic*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8673,7 +8673,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "youtube*"
+        "YouTube*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8681,7 +8681,7 @@
       "service": "GlobalMedia",
       "rule": [
         "user-agent",
-        "youtubemusic*"
+        "YouTubeMusic*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8817,7 +8817,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "acfun*"
+        "AcFun*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8833,7 +8833,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "bilibili*"
+        "Bilibili*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8857,7 +8857,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "tiktok*"
+        "TikTok*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8865,7 +8865,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "%e4%b8%ad%e5%9b%bd%e5%b7%a5%e5%95%86%e9%93%b6%e8%a1%8c*"
+        "%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8873,7 +8873,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "%e4%ba%ac%e4%b8%9c%e5%88%b0%e5%ae%b6*"
+        "%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8881,7 +8881,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "%e4%bc%81%e4%b8%9a%e5%be%ae%e4%bf%a1*"
+        "%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8889,7 +8889,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "%e4%bc%98%e9%85%b7*"
+        "%E4%BC%98%E9%85%B7*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8897,7 +8897,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "%e5%8d%b3%e5%88%bb*"
+        "%E5%8D%B3%E5%88%BB*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8905,7 +8905,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*"
+        "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8913,7 +8913,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "*vainglory*"
+        "*Vainglory*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8921,7 +8921,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "adblock*"
+        "AdBlock*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8929,7 +8929,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "best%20trace*"
+        "Best%20Trace*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8937,7 +8937,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "megawerewolf*"
+        "MegaWerewolf*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8945,7 +8945,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "micromessenger%20client"
+        "MicroMessenger%20Client"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8953,7 +8953,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "micromessengerclient*"
+        "MicroMessengerClient*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8961,7 +8961,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "microsoft*"
+        "Microsoft*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8969,7 +8969,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "moke*"
+        "Moke*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8977,7 +8977,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "neteasemusic*"
+        "NeteaseMusic*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8985,7 +8985,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "qq*"
+        "QQ*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8993,7 +8993,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "remoteplay*"
+        "RemotePlay*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9001,7 +9001,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "tim*"
+        "TIM*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9009,7 +9009,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "teamviewer*"
+        "TeamViewer*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9017,7 +9017,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "webtorrent*"
+        "WebTorrent*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9025,7 +9025,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "yyets*"
+        "YYeTs*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9097,7 +9097,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "%e5%92%aa%e5%92%95%e8%a7%86%e9%a2%91"
+        "%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9105,7 +9105,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90"
+        "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9113,7 +9113,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "%e9%85%b7%e6%88%91%e9%9f%b3%e4%b9%90*"
+        "%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9121,7 +9121,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "*qiyi*"
+        "*QIYI*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9129,7 +9129,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "domesticmedia*"
+        "DomesticMedia*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9137,7 +9137,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "mgtv*"
+        "MGTV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9145,7 +9145,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "moo%e9%9f%b3%e4%b9%90*"
+        "MOO%E9%9F%B3%E4%B9%90*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9153,7 +9153,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "moo*"
+        "MOO*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9161,7 +9161,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "miguvideo*"
+        "MiguVideo*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9169,7 +9169,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "ppstream*"
+        "PPStream*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9177,7 +9177,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "qiyi*"
+        "QIYI*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9185,7 +9185,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "qq%e9%9f%b3%e4%b9%90"
+        "QQ%E9%9F%B3%E4%B9%90"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9193,7 +9193,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "qq%e9%9f%b3%e4%b9%90*"
+        "QQ%e9%9f%b3%e4%b9%90*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9201,7 +9201,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "qqmusic*"
+        "QQMusic*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9209,7 +9209,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "qyplayer*"
+        "QYPlayer*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9217,7 +9217,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "youku*"
+        "Youku*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9241,7 +9241,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "iqiyi*"
+        "iQiYi*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9249,7 +9249,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "iqiyi*"
+        "iQiyi*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9297,7 +9297,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "himalaya*"
+        "Himalaya*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9305,7 +9305,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "tencentmidasconnect*"
+        "TencentMidasConnect*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9313,7 +9313,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "micromessenger*"
+        "MicroMessenger*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9321,7 +9321,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "wechat*"
+        "WeChat*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9329,10 +9329,11 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "iqiyi*"
+        "iQIYI*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     }
   ],
-  "priority_exceptions": 340
+  "manual_priority_rules": 1,
+  "priority_exceptions": 341
 }

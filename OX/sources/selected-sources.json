@@ -1,0 +1,20 @@
+{
+  "TikTok": {
+    "repository": "Semporia/TikTok-Unlock",
+    "revision": "5d782f0b35939bff599692b4086c17eef6b1ee48",
+    "url": "https://raw.githubusercontent.com/Semporia/TikTok-Unlock/5d782f0b35939bff599692b4086c17eef6b1ee48/Quantumult-X/TikTok.list",
+    "file": "sources/selected/TikTok.list",
+    "sha256": "dcc38c4885213d4155d8df9174334eff05e118518fb1ac23e7dd826bb0fc6aff",
+    "last_file_commit_date": "2022-06-23T15:49:56+08:00",
+    "selection": "Comparison only. User retained blackmatrix plus reviewed local corrections; never auto-merge Semporia. Unknown history is not an activity claim."
+  },
+  "DouYin": {
+    "repository": "Semporia/Quantumult-X",
+    "revision": "b7dc0d9f1f7e19bc89a5f27845f532755b925481",
+    "url": "https://raw.githubusercontent.com/Semporia/Quantumult-X/b7dc0d9f1f7e19bc89a5f27845f532755b925481/Filter/DouYin.list",
+    "file": "sources/selected/DouYin.list",
+    "sha256": "57c89c5ce380765806d5dc05a2817b8176ad10dd273cc3a9eda5f939f7705e2f",
+    "last_file_commit_date": "2025-03-06T20:04:05+08:00",
+    "selection": "Comparison only. User retained blackmatrix plus reviewed local corrections; never auto-merge Semporia. Unknown history is not an activity claim."
+  }
+}

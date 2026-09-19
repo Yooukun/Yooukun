@@ -69,6 +69,10 @@ python3 tools/manage.py export --current /absolute/path/current.conf --out /abso
 
 ## 更新流程
 
+逐列表首选/备选、文件活跃度核验和“一句话更新”的边界见 [来源维护表](sources/UPDATE-SOURCES.md)。
+TikTok/DouYin 继续采用blackmatrix基线与人工补充/排除；Semporia仅作对照，不整表替换。
+另需运行 `python3 tools/test_selected_sources.py`，确保对照源未混入发布规则，且共享snssdk.com优先直连。
+
 ```sh
 python3 tools/manage.py snapshot --revision <完整40位提交SHA> --target candidate
 python3 tools/manage.py build --root candidate

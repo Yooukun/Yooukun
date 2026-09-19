@@ -1,4 +1,6 @@
 # OX generated cross-service specific exceptions. GPL-2.0. Do not set force-policy.
+# Reviewed local exceptions precede generated overlaps; see sources/local/Priority.list.
+host-suffix, snssdk.com, direct
 host, e1.vdowowza.vip.hk1.tvb.com, 国内服务
 host, akmcdnoversea-tw.inter.ptqy.gitv.tv, 其他海外媒体
 host, alibaba.cdn.steampipe.steamcontent.com, 国内服务

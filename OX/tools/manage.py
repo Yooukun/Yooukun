@@ -67,7 +67,8 @@ def rule(line):
  p = [x.strip() for x in line.split(',')]
  if len(p) != 3:
   raise ValueError('Unsupported rule field count: '+line)
- kind, value = p[0].lower(), p[1].lower()
+ kind = p[0].lower()
+ value = p[1] if kind == 'user-agent' else p[1].lower()
  if kind in ('host','host-suffix'):
   if not re.fullmatch(r'[a-z0-9_.-]+', value) or '*' in value or '?' in value:
    raise ValueError('Invalid host rule: '+line)
@@ -152,9 +153,16 @@ def build(root):
  policies={n:p for n,p,_ in SERVICES}; policies['Lan']='direct'
  priority=[(k,v,n) for (k,v),n in seen.items() if k in ('host','host-suffix') and v in domains]
  priority.sort(key=lambda x:(-len(x[1].split('.')),x[1],0 if x[0]=='host' else 1))
+ manual = active((ROOT/'sources/local/Priority.list').read_text())
+ manual_keys = {rule(l) for l in manual}
+ assert len(manual_keys)==len(manual), 'Duplicate manual priority rule'
+ for line in manual:
+  assert line.split(',')[-1].strip() in set(policies.values())|{'direct','reject'}, 'Invalid manual priority target'
  write(root/'rules/Priority.list','# OX generated cross-service specific exceptions. GPL-2.0. Do not set force-policy.\n'+
-  '\n'.join(f'{k}, {v}, {policies[n]}' for k,v,n in priority)+'\n')
- report['priority_exceptions']=len(priority)
+  '# Reviewed local exceptions precede generated overlaps; see sources/local/Priority.list.\n'+
+  '\n'.join(manual+[f'{k}, {v}, {policies[n]}' for k,v,n in priority if (k,v) not in manual_keys])+'\n')
+ report['manual_priority_rules']=len(manual)
+ report['priority_exceptions']=len(manual)+sum((k,v) not in manual_keys for k,v,n in priority)
  write(root/'sources/build-report.json',json.dumps(report,ensure_ascii=False,indent=2)+'\n')
  write(root/'profiles/quantumultx.conf',profile())
  print(json.dumps({'rules':sum(report['counts'].values()),'lists':len(SERVICES),
@@ -250,7 +258,8 @@ def validate(root):
  all_rules={}
  for name,policy,_ in SERVICES:
   for l in active((root/f'rules/{name}.list').read_text()):
-   k=rule(l); assert k not in all_rules, ('Duplicate',k)
+   k=rule(l)
+   assert k not in all_rules, ('Duplicate',k)
    assert l.split(',')[-1].strip()==policy
    all_rules[k]=name
  for line in s['[filter_remote]']:

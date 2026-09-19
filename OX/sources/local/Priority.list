@@ -1,0 +1,4 @@
+# Reviewed shared-domain exception: both upstream DouYin and TikTok lists include snssdk.com.
+# Preserve domestic-first behavior instead of accidentally inheriting GlobalMedia.
+# Does not imply this shared domain is exclusive to DouYin; device validation remains required.
+host-suffix, snssdk.com, direct

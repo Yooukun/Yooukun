@@ -1,6 +1,15 @@
 # 规则来源与维护决定
 
-初版以 blackmatrix7/ios_rule_script 固定提交建立基线，完整来源 URL、SHA-256 在 manifest.json。
+## 2026-09-19 来源维护决定
+
+逐列表首选、历史备选、活跃度证据及更新约定见 [UPDATE-SOURCES.md](UPDATE-SOURCES.md)。
+用户比较更新时间与覆盖范围后，确认继续以blackmatrix7为基线，Semporia只作对照。严格18/15条替换候选已撤下，未曾发布。
+TikTok/DouYin 继续保留原local补充与exclusions排除，生成22/9条规则，不引入宽泛关键词或User-Agent。
+新增sources/local/Priority.list人工例外，将共享snssdk.com优先直连，避免落入GlobalMedia；设备仍需验证。
+其他规则列表与个人配置不变。来源对照快照、哈希与固定提交见selected-sources.json；构建不读取Semporia对照。
+Semporia来源权利归原作者，不为其声明GPL授权。
+
+以下记录初版决定。初版以 blackmatrix7/ios_rule_script 固定提交建立基线，完整来源 URL、SHA-256 在 manifest.json。
 原文和 GPL-2.0 许可保存在 upstream/。发布规则经过格式统一、策略绑定、跨集合去重和本地筛选，
 不是逐条重新发现的原创域名，也不是所有域名均已实机验证。
 
