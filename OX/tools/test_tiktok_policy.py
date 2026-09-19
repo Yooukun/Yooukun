@@ -2,7 +2,7 @@
 """Static configuration regression; does not test device selection or node access."""
 from manage import ROOT, profile, sections
 
-expected = 'static = TikTok, 日本, 美国, 台湾'
+expected = 'static = TikTok, 日本, 美国, 台湾, 默认代理, direct'
 for source in (profile(), (ROOT/'profiles/quantumultx.conf').read_text()):
     policies = sections(source)['[policy]']
     assert [line for line in policies if line.startswith('static = TikTok,')] == [expected]
