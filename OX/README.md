@@ -1,7 +1,7 @@
 # OX Quantumult X 自有配置与规则库
 
-当前公开推送因权限 403 尚未完成，见 RELEASE_STATUS.md。个人远程导出默认带 .conf.template 后缀；
-只有公开推送及 verify_published.py 校验通过后才使用 export --remote-ready。
+公开发布已完成，33 个运行时资源的匿名下载与 SHA-256 校验全部通过，见 RELEASE_STATUS.md。
+可使用 export --remote-ready 生成正式个人远程配置；设备实际导入、节点及脚本效果仍待验证。
 
 由旧个人配置的服务覆盖与近期配置的节点分组整合而来。手机使用本仓库发布的规则，
 上游只作为候选资料，由维护者决定何时更新。首版为待设备验收版本。
