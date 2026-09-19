@@ -5,7 +5,7 @@ from manage import ROOT, profile, sections
 expected = 'static = TikTok, 日本, 美国, 台湾, 默认代理, direct'
 for source in (profile(), (ROOT/'profiles/quantumultx.conf').read_text()):
     policies = sections(source)['[policy]']
-    assert [line for line in policies if line.startswith('static = TikTok,')] == [expected]
+    assert [line.split(', img-url=')[0] for line in policies if line.startswith('static = TikTok,')] == [expected]
     for region in ('日本', '美国', '台湾'):
         assert any(line.startswith(f'static = {region},') for line in policies)
     resources = sections(source)['[filter_remote]']

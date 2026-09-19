@@ -198,6 +198,11 @@ def profile():
   '', '[task_local]', '', '[http_backend]', '', '[mitm]',
   '# Generate and trust a NEW certificate on device only when enabling an HTTPS rewrite.',
   'skip_validating_cert = false', '']
+ icons=json.loads((ROOT/'icons/policies.json').read_text())
+ for i,line in enumerate(lines):
+  if line.startswith(('static = ', 'available = ')):
+   name=line.split('=',1)[1].split(',',1)[0].strip()
+   lines[i]=line+', img-url='+icons[name]
  return '\n'.join(lines)
 
 def export(current, out, remote_ready=False):
