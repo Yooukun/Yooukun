@@ -11,7 +11,9 @@ current=current.replace('static = Pornhub,','static = 成人站点,').replace('f
 current=current.replace('[server_remote]\n','[server_remote]\nhttps://example.invalid/primary, tag=Kuromis, enabled=true\n')
 before=sections(current)
 after=sections(transform(current,'https://example.invalid/standby'))
-assert len(after['[policy]'])==42
+assert len(after['[policy]'])==41
+assert not any(re.match(r'^static = mono,',line) for line in after['[policy]'])
+assert all('^(Kuromis|mono)$' in line for line in after['[policy]'] if 'resource-tag-regex=' in line)
 assert after['[server_remote]'][0]==before['[server_remote]'][0]
 assert after['[server_remote]'][-1].endswith('enabled=false')
 assert 'tag=mono' in after['[server_remote]'][-1]

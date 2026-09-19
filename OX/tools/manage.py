@@ -168,15 +168,14 @@ def profile():
   '', '[dns]', '# Personal export preserves current DNS and alias settings.',
   'doh-server = https://dns.alidns.com/dns-query', '', '[policy]']
  for name,regex in REGIONS.items():
-  lines.append(f'static = {name}, resource-tag-regex=^Kuromis$, server-tag-regex=(?i)({regex})')
- lines += ['available = 故障切换, resource-tag-regex=^Kuromis$',
-  'static = mono, resource-tag-regex=^mono$',
-  'static = 默认代理, 故障切换, '+', '.join(REGIONS)+', mono',
+  lines.append(f'static = {name}, resource-tag-regex=^(Kuromis|mono)$, server-tag-regex=(?i)({regex})')
+ lines += ['available = 故障切换, resource-tag-regex=^(Kuromis|mono)$',
+  'static = 默认代理, 故障切换, '+', '.join(REGIONS),
   'static = 兜底策略, 默认代理, direct']
  for name,policy,default in SERVICES:
   if name=='Lan': continue
   if name in ('OpenAI','Claude'):
-   lines.append(f'static = {policy}, resource-tag-regex=^Kuromis$, server-tag-regex=(?i)(Singapore|Japan|United States|新加坡|日本|美国)')
+   lines.append(f'static = {policy}, resource-tag-regex=^(Kuromis|mono)$, server-tag-regex=(?i)(Singapore|Japan|United States|新加坡|日本|美国)')
    continue
   elif name=='TikTok':
    opts=['日本','美国','台湾','默认代理','direct']

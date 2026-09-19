@@ -6,7 +6,7 @@ from policy_icons import ICONS, merge
 
 source=(ROOT/'profiles/quantumultx.conf').read_text()
 assert profile()==source, 'Generated template differs from published template'
-assert len(ICONS)==42
+assert len(ICONS)==41
 policies=sections(source)['[policy]']
 assert len(policies)==len(ICONS)
 for line in policies:
@@ -17,4 +17,4 @@ bare=re.sub(r',\s*img-url=[^,\r\n]+','',source)
 assert merge(bare)==source
 assert merge(source)==source
 assert sections(bare)['[filter_remote]']==sections(source)['[filter_remote]']
-print('PASS: 42 icon mappings, exact generation, icon-only merge, idempotency.')
+print('PASS: 41 icon mappings, exact generation, icon-only merge, idempotency.')

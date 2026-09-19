@@ -6,7 +6,7 @@ policies.json 保存策略名称与自有镜像地址，不包含私人订阅、
 
 旧配置的 16 项对应关系已按当前策略名称恢复。其余策略补充同系列图标。
 Claude、Riot、网易云、Pornhub、瑞士、荷兰、印度已更换为 custom/ 中的准确标识适配图；抖音与 TikTok 仍使用同一音乐标识。
-custom/ 中新增 7 张 108x108 RGBA PNG；官方品牌素材来源、保留的原文件及操作见 custom/README.md 与 custom/manifest.json。映射已增加 mono，共 42 项。
+custom/ 中新增 7 张 108x108 RGBA PNG；官方品牌素材来源、保留的原文件及操作见 custom/README.md 与 custom/manifest.json。共 41 项策略映射；mono 是节点资源，不是额外策略。
 
 来源：
 - Orz-3 mini：https://github.com/Orz-3/mini 。原 README 见 mini/UPSTREAM-README.md；明确说明可用于策略图标，未发现通用开源许可证。本镜像不声明获得额外版权授权。
