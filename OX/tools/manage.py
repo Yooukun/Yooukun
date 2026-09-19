@@ -177,6 +177,8 @@ def profile():
   if name in ('OpenAI','Claude'):
    lines.append(f'static = {policy}, resource-tag-regex=^Kuromis$, server-tag-regex=(?i)(Singapore|Japan|United States|新加坡|日本|美国)')
    continue
+  elif name=='TikTok':
+   opts=['日本','美国','台湾']
   else:
    opts=list(dict.fromkeys([default,'direct','默认代理',*REGIONS]))
   lines.append('static = '+policy+', '+', '.join(opts))
