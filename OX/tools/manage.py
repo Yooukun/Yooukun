@@ -26,7 +26,7 @@ SERVICES = [
  ('TikTok','TikTok','默认代理'), ('BiliBili','哔哩哔哩','direct'),
  ('NetEaseMusic','网易云音乐','direct'), ('DouYin','抖音','direct'),
  ('Weibo','微博','direct'), ('Riot','Riot游戏','direct'),
- ('Speedtest','测速','direct'), ('Pornhub','成人站点','默认代理'),
+ ('Speedtest','测速','direct'), ('Pornhub','Pornhub','默认代理'),
  ('KoreanLive','韩国直播','韩国'),
  ('Apple','Apple','direct'), ('Microsoft','Microsoft','direct'),
  ('Google','Google','默认代理'), ('GlobalMedia','其他海外媒体','默认代理'),
@@ -170,7 +170,8 @@ def profile():
  for name,regex in REGIONS.items():
   lines.append(f'static = {name}, resource-tag-regex=^Kuromis$, server-tag-regex=(?i)({regex})')
  lines += ['available = 故障切换, resource-tag-regex=^Kuromis$',
-  'static = 默认代理, 故障切换, '+', '.join(REGIONS),
+  'static = mono, resource-tag-regex=^mono$',
+  'static = 默认代理, 故障切换, '+', '.join(REGIONS)+', mono',
   'static = 兜底策略, 默认代理, direct']
  for name,policy,default in SERVICES:
   if name=='Lan': continue
@@ -208,11 +209,13 @@ def profile():
 def export(current, out, remote_ready=False):
  text = profile()
  src = sections(current.read_text())
- assert len(src['[server_remote]'])==1
- subscription = src['[server_remote]'][0]
- # Keep the private subscription URL and protocol settings; discard external icon dependency.
- subscription = re.sub(r',\s*img-url=[^,]+','',subscription)
- subscription = re.sub(r'tag=[^,]+','tag=Kuromis',subscription)
+ assert len(src['[server_remote]'])>=1
+ subscriptions=[]
+ for index,line in enumerate(src['[server_remote]']):
+  line=re.sub(r',\s*img-url=[^,]+','',line)
+  if index==0: line=re.sub(r'tag=[^,]+','tag=Kuromis',line)
+  subscriptions.append(line)
+ subscription='\n'.join(subscriptions)
  text = text.replace('# Insert private Quantumult X subscription here with tag=Kuromis; never commit credentials.',subscription)
  text = text.replace('doh-server = https://dns.alidns.com/dns-query','\n'.join(src['[dns]']))
  out.mkdir(parents=True, exist_ok=True)

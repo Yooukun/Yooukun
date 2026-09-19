@@ -14,7 +14,10 @@ cases={'chatgpt.com':'OpenAI','api.openai.com':'OpenAI','claude.ai':'Claude','cl
  'www.tiktok.com':'TikTok','www.douyin.com':'抖音','www.bilibili.com':'哔哩哔哩',
  'store.steampowered.com':'Steam商店','dl.steam.clngaa.com':'Steam下载',
  'disney.my.sentry.io':'Disney','www.paypal.com':'PayPal','www.riotgames.com':'Riot游戏',
- 'www.pandalive.co.kr':'韩国直播','www.pornhub.com':'成人站点',
+ 'www.pandalive.co.kr':'韩国直播','www.pornhub.com':'Pornhub',
+ 'www.leagueoflegends.com':'Riot游戏','wildrift.leagueoflegends.com':'Riot游戏',
+ 'playvalorant.com':'Riot游戏','teamfighttactics.leagueoflegends.com':'Riot游戏',
+ '2xko.riotgames.com':'Riot游戏','playruneterra.com':'兜底策略',
  'not-openai.example':'兜底策略','api.openai.com.evil.example':'兜底策略'}
 for host,want in cases.items():
  got=match(host); assert got==want,(host,got,want)

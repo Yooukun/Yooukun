@@ -13,7 +13,9 @@ def main():
     args=parser.parse_args()
     manifest=json.loads((ROOT/'icons/manifest.json').read_text())
     libraries=json.loads((ROOT/'icons/libraries.json').read_text())
-    assert len(manifest)==sum(lib['png_count'] for lib in libraries)
+    custom=ROOT/'icons/custom/manifest.json'
+    extra=json.loads(custom.read_text()) if custom.exists() else []
+    assert len(manifest)==sum(lib['png_count'] for lib in libraries)+len(extra)
     assert len({item['path'] for item in manifest})==len(manifest)
     blobs={}
     for item in manifest:

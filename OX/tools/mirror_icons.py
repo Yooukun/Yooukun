@@ -93,9 +93,13 @@ def main():
             count+=1
         libraries.append({'repository':repository,'revision':revision,'png_count':count})
         print('Saved',count,'PNG assets from',repository,flush=True)
+    custom=ROOT/'icons/custom/manifest.json'
+    if custom.exists(): manifest.extend(json.loads(custom.read_text()))
     manifest.sort(key=lambda item:item['path'])
     assert len({item['path'] for item in manifest})==len(manifest)
     mapping={name:OWN+relative(url) for name,url in original.items()}
+    overrides=ROOT/'icons/overrides.json'
+    if overrides.exists(): mapping.update(json.loads(overrides.read_text()))
     assert all((ROOT/'icons'/relative(url)).is_file() for url in original.values())
     for filename,value in [('policies.json',mapping),('manifest.json',manifest),('libraries.json',libraries)]:
         (ROOT/'icons'/filename).write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')

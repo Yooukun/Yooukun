@@ -9,8 +9,8 @@
   "韩国": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/KR--3e7d8394b62c.png",
   "澳大利亚": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/AU--6744dee8a732.png",
   "法国": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/FR--1afe094b6f7e.png",
-  "瑞士": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/Global--0527ce2fd10f.png",
-  "荷兰": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/Global--0527ce2fd10f.png",
+  "瑞士": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/switzerland-v1.png",
+  "荷兰": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/netherlands-v1.png",
   "故障切换": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/Available--e358e828dce5.png",
   "默认代理": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/Global--0527ce2fd10f.png",
   "兜底策略": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/Final--f60dcbf4eafd.png",
@@ -34,10 +34,11 @@
   "Google": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/Google--7e2f6824d2bf.png",
   "其他海外媒体": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/Streaming--fb8777710669.png",
   "国内服务": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/CN--4c8b3cebe6dc.png",
-  "印度": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/qure/IN--92ae47db29f8.png",
-  "Claude": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/qure/Bot--189e7655b1e0.png",
+  "印度": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/india-v1.png",
+  "Claude": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/claude-v1.png",
   "HBO": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/qure/HBO--cc0158857d74.png",
-  "网易云音乐": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/qure/Netease_Music_Unlock--300fc00979ea.png",
-  "成人站点": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/qure/Pornhub--469bb7ea0754.png",
-  "Riot游戏": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/qure/LOL--09b659710231.png"
+  "网易云音乐": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/netease-v1.png",
+  "Pornhub": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/pornhub-v1.png",
+  "mono": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Color/Available--e358e828dce5.png",
+  "Riot游戏": "https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/riot-v1.png"
 }

@@ -1,0 +1,51 @@
+[
+  {
+    "path": "custom/claude-v1.png",
+    "source_url": "https://claude.com/ (official inline wordmark SVG, isolated mark path)",
+    "operation": "Preserve mark; alpha crop, proportional fit, rounded square; 108x108 RGBA PNG",
+    "sha256": "8527ed8653010efc6be858ec07e1b38887e5e2294357f17e44aff302f8bcd3f9",
+    "bytes": 9230
+  },
+  {
+    "path": "custom/riot-v1.png",
+    "source_url": "https://www.riotgames.com/assets/img/meta/87021767499a895b42bbe1e6a9edaf27/apple-touch-icon-precomposed-180x180.png",
+    "operation": "Preserve mark; alpha crop, proportional fit, rounded square; 108x108 RGBA PNG",
+    "sha256": "82ad063c9df0727d07aa8dfeb013cea99e11df2539fe07c913b389d899d3b81a",
+    "bytes": 4830
+  },
+  {
+    "path": "custom/netease-v1.png",
+    "source_url": "../mini/Color/neteasemusic--dfb008e11754.png",
+    "operation": "Preserve mark; alpha crop, proportional fit, rounded square; 108x108 RGBA PNG",
+    "sha256": "c6dba95dcea74b8299f2c4e5ac5ba2031517af8f60bb9101a77a5c327e8184e1",
+    "bytes": 12403
+  },
+  {
+    "path": "custom/pornhub-v1.png",
+    "source_url": "../qure/Color/Pornhub_2--45a52609fa30.png",
+    "operation": "Preserve mark; alpha crop, proportional fit, rounded square; 108x108 RGBA PNG",
+    "sha256": "d70621cffe3dc1fd2cc9ebe3bc9c3ab1d0d0c8092e90ce095eacff23c62b7920",
+    "bytes": 10934
+  },
+  {
+    "path": "custom/india-v1.png",
+    "source_url": "../qure/Color/India--3630dde4f0ca.png",
+    "operation": "Preserve mark; alpha crop, proportional fit, rounded square; 108x108 RGBA PNG",
+    "sha256": "4285284af13cf564bdfdec3b47b9b9a079de6a3b7981652515918ca6a354b047",
+    "bytes": 8527
+  },
+  {
+    "path": "custom/switzerland-v1.png",
+    "source_url": "Geometric national flag motif: red field, centered white cross",
+    "operation": "Original geometric UI rendering, not an official flag specification",
+    "sha256": "440e046bbb058934971d655e182a5bea9fa5d9aaddcb8caec872b855e2328b76",
+    "bytes": 2165
+  },
+  {
+    "path": "custom/netherlands-v1.png",
+    "source_url": "Geometric national flag motif: red white blue horizontal bands",
+    "operation": "Original geometric UI rendering, rounded square adaptation",
+    "sha256": "4bfd98d1bcba0c1e632881018d5e5c2b0bf413bc8eaef28f29026eafe9634c60",
+    "bytes": 1898
+  }
+]

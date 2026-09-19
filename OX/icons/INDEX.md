@@ -1,9 +1,16 @@
-# 可复用策略图标目录
+# 图标目录
 
-来源和限制见 [README](README.md)。包含 mini 的 Color/Alpha 与 Qure IconSet 全部 PNG。
+含 2100 张镜像图标与自定义适配图标；来源和限制见 [README](README.md)。
 
-| 图标 | 文件 | 引用地址 |
+| 预览 | 路径 | URL |
 |---|---|---|
+| ![](custom/claude-v1.png) | custom/claude-v1.png | https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/claude-v1.png |
+| ![](custom/india-v1.png) | custom/india-v1.png | https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/india-v1.png |
+| ![](custom/netease-v1.png) | custom/netease-v1.png | https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/netease-v1.png |
+| ![](custom/netherlands-v1.png) | custom/netherlands-v1.png | https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/netherlands-v1.png |
+| ![](custom/pornhub-v1.png) | custom/pornhub-v1.png | https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/pornhub-v1.png |
+| ![](custom/riot-v1.png) | custom/riot-v1.png | https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/riot-v1.png |
+| ![](custom/switzerland-v1.png) | custom/switzerland-v1.png | https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/custom/switzerland-v1.png |
 | ![](mini/Alpha/10000--40ea2bdd7454.png) | mini/Alpha/10000--40ea2bdd7454.png | https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Alpha/10000--40ea2bdd7454.png |
 | ![](mini/Alpha/10010--aaf4ca57a814.png) | mini/Alpha/10010--aaf4ca57a814.png | https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Alpha/10010--aaf4ca57a814.png |
 | ![](mini/Alpha/10086--3669e27eeb1d.png) | mini/Alpha/10086--3669e27eeb1d.png | https://raw.githubusercontent.com/Yooukun/Yooukun/yoh_96/OX/icons/mini/Alpha/10086--3669e27eeb1d.png |
