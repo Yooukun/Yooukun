@@ -1,13 +1,19 @@
 # 策略组图标
 
-policies.json 保存策略名称与图标远程地址，不包含私人订阅、节点或证书。
+policies.json 保存策略名称与自有镜像地址，不包含私人订阅、节点或证书。
+本次镜像 Orz-3 mini Color/Alpha 全部 753 张 PNG，Qure IconSet 全部 1347 张 PNG，共 2100 张。包含当前未使用的资源，不包含上游其他无关目录。
+预览和复制地址见 [图标索引](INDEX.md)。mini/Color/ 为彩色版，mini/Alpha/ 为透明版；qure/ 保留 IconSet 内目录层级。文件名添加源路径哈希短后缀，避免 macOS 大小写不敏感文件系统将 Steam.png/steam.png 等不同图标互相覆盖。
 
 旧配置的 16 项对应关系已按当前策略名称恢复。其余策略补充同系列图标。
 瑞士、荷兰暂用 Global 通用图标，Claude 暂用 Bot，抖音与 TikTok 使用同一音乐标识；不是这些服务的专属新图标。
 
 来源：
-- Orz-3 mini：https://github.com/Orz-3/mini 。README 明确允许策略组远程引用，未确认镜像再发布许可，因此只引用，不复制图片。
-- Koolson Qure：https://github.com/Koolson/Qure 。作者要求转载注明出处、禁止商业用途；此处保留原站引用，图标权利归原作者。
+- Orz-3 mini：https://github.com/Orz-3/mini 。原 README 见 mini/UPSTREAM-README.md；明确说明可用于策略图标，未发现通用开源许可证。本镜像不声明获得额外版权授权。
+- Koolson Qure：https://github.com/Koolson/Qure 。原 README 见 qure/UPSTREAM-README.md；作者要求转载注明出处、禁止商业用途，图标权利归原作者。
+- 图标不适用本仓库规则文件的 GPL 授权；本镜像不会扩大使用权限。保留署名、来源说明；如权利人提出问题，应核实处理。
 
-图片仅用于界面展示，不参与分流。恢复外部图片依赖不会使规则依赖外部；原站失效可能导致图标不显示。
+图片仅用于界面展示，不参与分流。运行时只引用本仓库，原作者删除资源不会影响已镜像版本；仍依赖本仓库及 GitHub 可访问。
 更新远程分流资源不会更新本地策略的 img-url，手机需合并新的 [policy] 内容。
+
+libraries.json 记录两套库的固定提交；manifest.json 记录原始固定链接、相对路径、SHA-256 与字节数；original-policies.json 保留原 41 项映射。
+新增策略可从 INDEX.md 复制现有链接写入 policies.json，或直接追加到策略的 img-url。更新来源库需要明确运行 tools/mirror_icons.py，不自动跟随上游删除文件。
