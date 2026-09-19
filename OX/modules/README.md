@@ -1,6 +1,9 @@
 # MITM、脚本与重写
 
 主配置保留 MITM、rewrite_local、task_local；两条实验重写订阅已列出，默认 enabled=false。
+远程 .conf 为原生 rewrite resource：只有规则和 hostname 行，不含 [rewrite_local]、[mitm] 段头。
+此前 invalid line [rewrite_local] 是生成格式错误，现已修复。已有订阅更新资源即可，不需要改节点或重装证书。
+本地 *-local.txt 是手动合并说明，仍保留段头；不要把它当作远程重写资源订阅。
 这不是已验证的脚本增强版。已完成语法检查和人工构造响应测试；当前微博、Netflix 接口及设备证书未实测。
 
 | 模块 | 当前交付 | 使用边界 |

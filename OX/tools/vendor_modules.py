@@ -36,7 +36,7 @@ def main():
    if needle not in line: continue
    script=line.rsplit('/',1)[1]
    matches.append(re.sub(r'https://\S+$',BASE+'/modules/scripts/'+script,line))
-  write(ROOT/f'modules/{group}.conf','# EXPERIMENTAL: static source preserved; current app endpoints not device-tested.\n[rewrite_local]\n'+'\n'.join(matches)+'\n\n[mitm]\nhostname = '+hosts+'\n')
+  write(ROOT/f'modules/{group}.conf','# EXPERIMENTAL: static source preserved; current app endpoints not device-tested.\n'+'\n'.join(matches)+'\n\nhostname = '+hosts+'\n')
   write(ROOT/f'modules/{group}-local.txt','# Merge lines below into the corresponding sections. Copy JS files into Quantumult X/Scripts.\n[rewrite_local]\n'+'\n'.join(re.sub(r'https://\S+/', '',l) for l in matches)+'\n\n[mitm]\nhostname = '+hosts+'\n')
  # Historical TikTok rules are archived as comments, NOT offered as an enabled working module.
  lines=[l for l in original if ' url 30' in l]
