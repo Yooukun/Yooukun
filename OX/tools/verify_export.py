@@ -4,7 +4,9 @@ from pathlib import Path
 from manage import ROOT, SERVICES, active, sections
 p=argparse.ArgumentParser(); p.add_argument('--current',type=Path,required=True); p.add_argument('--out',type=Path,required=True); a=p.parse_args()
 source=sections(a.current.read_text())
-remote=sections((a.out/'OX-个人版-远程规则.conf').read_text())
+remote_path=a.out/'OX-个人版-远程规则.conf'
+if not remote_path.exists(): remote_path=a.out/'OX-个人版-远程规则-待公开托管.conf.template'
+remote=sections(remote_path.read_text())
 local=sections((a.out/'OX-个人版-内置规则.conf').read_text())
 assert source['[dns]']==remote['[dns]']==local['[dns]']
 assert source['[server_remote]'][0].split(',')[0]==remote['[server_remote]'][0].split(',')[0]

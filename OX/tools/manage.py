@@ -198,7 +198,7 @@ def profile():
   'skip_validating_cert = false', '']
  return '\n'.join(lines)
 
-def export(current, out):
+def export(current, out, remote_ready=False):
  text = profile()
  src = sections(current.read_text())
  assert len(src['[server_remote]'])==1
@@ -209,7 +209,7 @@ def export(current, out):
  text = text.replace('# Insert private Quantumult X subscription here with tag=Kuromis; never commit credentials.',subscription)
  text = text.replace('doh-server = https://dns.alidns.com/dns-query','\n'.join(src['[dns]']))
  out.mkdir(parents=True, exist_ok=True)
- remote = out/'OX-个人版-远程规则.conf'
+ remote = out/('OX-个人版-远程规则.conf' if remote_ready else 'OX-个人版-远程规则-待公开托管.conf.template')
  write(remote,text); remote.chmod(0o600)
  # Self-contained rules work before publication and on a first launch without GitHub access.
  parts=text.split('[filter_remote]')
@@ -268,13 +268,13 @@ def main():
  a=sub.add_parser('snapshot'); a.add_argument('--revision',default=REV); a.add_argument('--target',type=Path,required=True)
  a=sub.add_parser('build'); a.add_argument('--root',type=Path,default=ROOT)
  a=sub.add_parser('validate'); a.add_argument('--root',type=Path,default=ROOT)
- a=sub.add_parser('export'); a.add_argument('--current',type=Path,required=True); a.add_argument('--out',type=Path,required=True)
+ a=sub.add_parser('export'); a.add_argument('--current',type=Path,required=True); a.add_argument('--out',type=Path,required=True); a.add_argument('--remote-ready',action='store_true',help='Use only after anonymous public resource verification passes')
  a=p.parse_args()
  if a.cmd=='snapshot':
   assert re.fullmatch('[0-9a-f]{40}',a.revision), 'Use immutable full commit SHA'
   snapshot(a.revision,a.target)
  elif a.cmd=='build': build(a.root)
  elif a.cmd=='validate': validate(a.root)
- elif a.cmd=='export': export(a.current,a.out)
+ elif a.cmd=='export': export(a.current,a.out,a.remote_ready)
 
 if __name__=='__main__': main()

@@ -1,5 +1,9 @@
 # 发布状态
 
+更新：公开仓库发布未完成。HTTPS Git 推送返回 403；GitHub 连接创建 blob 返回 403 Resource not accessible by integration。
+公开仓库的内容与根目录旧文件清理仅在本地提交，远端仍未改变。需要给当前凭据/连接授予该仓库内容写入权限。
+恢复后推送公开仓库，再运行 tools/verify_published.py；通过后 export --remote-ready 才生成正式远程配置。
+
 - Git：OX 推送成功，原历史规则文件保留。
 - 原维护仓库 yoh_96 保持私有；经用户确认，公共分发改用 Yooukun/Yooukun 的 yoh_96 分支 OX/ 目录。
 - 未修改仓库可见性，未将 GitHub 访问凭证写入配置。
