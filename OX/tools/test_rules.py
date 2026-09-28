@@ -21,6 +21,7 @@ cases={'chatgpt.com':'OpenAI','api.openai.com':'OpenAI','claude.ai':'Claude','cl
  'playvalorant.com':'Riot游戏','teamfighttactics.leagueoflegends.com':'Riot游戏',
  '2xko.riotgames.com':'Riot游戏','playruneterra.com':'兜底策略',
  'not-openai.example':'兜底策略','api.openai.com.evil.example':'兜底策略',
+ 'www.speedtest.net':'测速','www.speedtest.co':'测速','demo.speedtestcustom.com':'测速',
  'api.snssdk.com':'direct','tiktok.snssdk.com':'direct','www.ixigua.com':'国内服务',
  'www.toutiao.com':'国内服务','cdn.douyinvod.example':'兜底策略',
  'p16-tiktokcdn-com.akamaized.net':'TikTok','v.tiktokv.com':'TikTok',
