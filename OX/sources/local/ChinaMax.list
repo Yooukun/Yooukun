@@ -1,0 +1,13 @@
+# 2026-10-15: retain previous coverage, excluding HK-registered 43.92.128.0/17.
+# APNIC https://rdap.apnic.net/ip/43.92.128.0 : EH-TECHNOLOGY, HK.
+# RIPE https://stat.ripe.net/data/prefix-overview/data.json?resource=43.92.128.0%2F17 : AS45102.
+# Registration/routing does not establish physical location or mainland direct suitability.
+# The upstream covering 43.0.0.0/9 is excluded via exclusions.json.
+ip-cidr, 43.0.0.0/10, 国内服务
+ip-cidr, 43.64.0.0/12, 国内服务
+ip-cidr, 43.80.0.0/13, 国内服务
+ip-cidr, 43.88.0.0/14, 国内服务
+ip-cidr, 43.92.0.0/17, 国内服务
+ip-cidr, 43.93.0.0/16, 国内服务
+ip-cidr, 43.94.0.0/15, 国内服务
+ip-cidr, 43.96.0.0/11, 国内服务

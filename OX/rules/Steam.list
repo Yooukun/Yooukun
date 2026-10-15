@@ -1,5 +1,5 @@
 # OX / Steam; generated from pinned source and local edits; GPL-2.0
-# Source: blackmatrix7/ios_rule_script @ 5c22b5056f6288c27935489f74f8681fadbdba87
+# Source: blackmatrix7/ios_rule_script @ d8363caa2c1e47fb735615316032bed3f475ee57
 # Original source and license: sources/upstream/; modifications: policy binding, normalization, exact deduplication.
 host, steambroadcast.akamaized.net, Steam商店
 host, steamcdn-a.akamaihd.net, Steam商店

@@ -25,7 +25,7 @@
     "Microsoft": 703,
     "Google": 699,
     "GlobalMedia": 1745,
-    "ChinaMax": 123883
+    "ChinaMax": 123593
   },
   "removed_exact_duplicates": [
     {
@@ -4071,6 +4071,54 @@
     {
       "rule": [
         "host-suffix",
+        "biliplus.com"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "corari.com"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "sharejoytech.com"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "upos-hz-mirrorakam.akamaized.net"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "163yun.com"
+      ],
+      "kept": "NetEaseMusic",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "aaplimg.com"
+      ],
+      "kept": "Apple",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
         "acg.tv"
       ],
       "kept": "BiliBili",
@@ -4082,6 +4130,14 @@
         "acgvideo.com"
       ],
       "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "amemv.com"
+      ],
+      "kept": "DouYin",
       "removed": "ChinaMax"
     },
     {
@@ -4111,9 +4167,9 @@
     {
       "rule": [
         "host-suffix",
-        "baka.im"
+        "beatsbydre.com"
       ],
-      "kept": "BiliBili",
+      "kept": "Apple",
       "removed": "ChinaMax"
     },
     {
@@ -4136,14 +4192,6 @@
       "rule": [
         "host-suffix",
         "bilibili.cc"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "bilibili.co"
       ],
       "kept": "BiliBili",
       "removed": "ChinaMax"
@@ -4279,31 +4327,7 @@
     {
       "rule": [
         "host-suffix",
-        "biliimg.com"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "biliintl.co"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
         "biliintl.com"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "biliplus.com"
       ],
       "kept": "BiliBili",
       "removed": "ChinaMax"
@@ -4322,150 +4346,6 @@
         "bilivideo.net"
       ],
       "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "corari.com"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "dreamcast.hk"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "dyhgames.com"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "hdslb.com"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "hdslb.net"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "hdslb.org"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "im9.com"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "maoercdn.com"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "mcbbs.net"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "mincdn.com"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "sharejoytech.com"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "smtcdns.net"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "upos-hz-mirrorakam.akamaized.net"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "yo9.com"
-      ],
-      "kept": "BiliBili",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "163yun.com"
-      ],
-      "kept": "NetEaseMusic",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "aaplimg.com"
-      ],
-      "kept": "Apple",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "amemv.com"
-      ],
-      "kept": "DouYin",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "beatsbydre.com"
-      ],
-      "kept": "Apple",
       "removed": "ChinaMax"
     },
     {
@@ -4511,17 +4391,33 @@
     {
       "rule": [
         "host-suffix",
-        "me.com"
+        "dreamcast.hk"
       ],
-      "kept": "Apple",
+      "kept": "BiliBili",
       "removed": "ChinaMax"
     },
     {
       "rule": [
         "host-suffix",
-        "mzstatic.com"
+        "hdslb.com"
       ],
-      "kept": "Apple",
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "hdslb.org"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "im9.com"
+      ],
+      "kept": "BiliBili",
       "removed": "ChinaMax"
     },
     {
@@ -4535,9 +4431,121 @@
     {
       "rule": [
         "host-suffix",
+        "maoercdn.com"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "mcbbs.net"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "me.com"
+      ],
+      "kept": "Apple",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "mincdn.com"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "mzstatic.com"
+      ],
+      "kept": "Apple",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "smtcdns.net"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "weibo.com"
+      ],
+      "kept": "Weibo",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "weibocdn.com"
+      ],
+      "kept": "Weibo",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "yo9.com"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
         "265.com"
       ],
       "kept": "Google",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "baka.im"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "bilibili.co"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "biliimg.com"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "biliintl.co"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "dyhgames.com"
+      ],
+      "kept": "BiliBili",
       "removed": "ChinaMax"
     },
     {
@@ -4551,7 +4559,31 @@
     {
       "rule": [
         "host-suffix",
+        "hdslb.net"
+      ],
+      "kept": "BiliBili",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "idouyinvod.com"
+      ],
+      "kept": "DouYin",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
         "iflix.com"
+      ],
+      "kept": "GlobalMedia",
+      "removed": "ChinaMax"
+    },
+    {
+      "rule": [
+        "host-suffix",
+        "joox.com"
       ],
       "kept": "GlobalMedia",
       "removed": "ChinaMax"
@@ -4591,38 +4623,6 @@
     {
       "rule": [
         "host-suffix",
-        "idouyinvod.com"
-      ],
-      "kept": "DouYin",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "himalaya.com"
-      ],
-      "kept": "GlobalMedia",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "yun-app.net"
-      ],
-      "kept": "NetEaseMusic",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
-        "joox.com"
-      ],
-      "kept": "GlobalMedia",
-      "removed": "ChinaMax"
-    },
-    {
-      "rule": [
-        "host-suffix",
         "wetv.vip"
       ],
       "kept": "GlobalMedia",
@@ -4639,17 +4639,17 @@
     {
       "rule": [
         "host-suffix",
-        "weibo.com"
+        "himalaya.com"
       ],
-      "kept": "Weibo",
+      "kept": "GlobalMedia",
       "removed": "ChinaMax"
     },
     {
       "rule": [
         "host-suffix",
-        "weibocdn.com"
+        "yun-app.net"
       ],
-      "kept": "Weibo",
+      "kept": "NetEaseMusic",
       "removed": "ChinaMax"
     },
     {
@@ -7697,6 +7697,14 @@
       "service": "Apple",
       "rule": [
         "user-agent",
+        "AppleTV*"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "Apple",
+      "rule": [
+        "user-agent",
         "com.apple.news*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
@@ -7706,14 +7714,6 @@
       "rule": [
         "user-agent",
         "com.apple.trustd*"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "Apple",
-      "rule": [
-        "user-agent",
-        "AppleTV*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8785,14 +8785,6 @@
       "service": "ChinaMax",
       "rule": [
         "host-keyword",
-        "qiyi"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "ChinaMax",
-      "rule": [
-        "host-keyword",
         "hnagroup"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
@@ -8810,6 +8802,14 @@
       "rule": [
         "host-keyword",
         "weibo"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "host-keyword",
+        "qiyi"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8881,6 +8881,14 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
+        "%E4%BC%98%E9%85%B7*"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "user-agent",
         "%E5%8D%B3%E5%88%BB*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
@@ -8930,6 +8938,14 @@
       "rule": [
         "user-agent",
         "MicroMessenger%20Client"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "user-agent",
+        "MicroMessenger*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -8994,6 +9010,14 @@
       "rule": [
         "user-agent",
         "TeamViewer*"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "user-agent",
+        "WeChat*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9081,6 +9105,14 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
+        "%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "user-agent",
         "%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
@@ -9121,6 +9153,22 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
+        "MGTV*"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "user-agent",
+        "MOO%E9%9F%B3%E4%B9%90*"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "user-agent",
         "MOO*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
@@ -9129,7 +9177,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "PPStream*"
+        "MiguVideo*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9137,7 +9185,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "QIYI*"
+        "QQ%E9%9F%B3%E4%B9%90"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9161,7 +9209,15 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "QYPlayer*"
+        "TencentMidasConnect*"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "user-agent",
+        "Youku*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9185,7 +9241,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "iQiYi*"
+        "live4iphone*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9193,7 +9249,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "iQiyi*"
+        "qqlive4iphone*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9233,7 +9289,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "MGTV*"
+        "PPStream*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9241,7 +9297,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "TencentMidasConnect*"
+        "QIYI*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9249,79 +9305,7 @@
       "service": "ChinaMax",
       "rule": [
         "user-agent",
-        "%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "ChinaMax",
-      "rule": [
-        "user-agent",
-        "MiguVideo*"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "ChinaMax",
-      "rule": [
-        "user-agent",
-        "MOO%E9%9F%B3%E4%B9%90*"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "ChinaMax",
-      "rule": [
-        "user-agent",
-        "QQ%E9%9F%B3%E4%B9%90"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "ChinaMax",
-      "rule": [
-        "user-agent",
-        "live4iphone*"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "ChinaMax",
-      "rule": [
-        "user-agent",
-        "qqlive4iphone*"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "ChinaMax",
-      "rule": [
-        "user-agent",
-        "MicroMessenger*"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "ChinaMax",
-      "rule": [
-        "user-agent",
-        "WeChat*"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "ChinaMax",
-      "rule": [
-        "user-agent",
-        "%E4%BC%98%E9%85%B7*"
-      ],
-      "reason": "Broad pattern retained in source, omitted from release pending evidence"
-    },
-    {
-      "service": "ChinaMax",
-      "rule": [
-        "user-agent",
-        "Youku*"
+        "QYPlayer*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
     },
@@ -9332,6 +9316,30 @@
         "iQIYI*"
       ],
       "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "user-agent",
+        "iQiYi*"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "user-agent",
+        "iQiyi*"
+      ],
+      "reason": "Broad pattern retained in source, omitted from release pending evidence"
+    },
+    {
+      "service": "ChinaMax",
+      "rule": [
+        "ip-cidr",
+        "43.0.0.0/9"
+      ],
+      "reason": "OX reviewed scope exclusion; see sources/exclusions.json"
     }
   ],
   "manual_priority_rules": 1,
