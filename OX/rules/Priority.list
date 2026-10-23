@@ -27,6 +27,7 @@ host-suffix, itacademyuat.download.prss.microsoft.com, 国内服务
 host-suffix, kis.v2.scr.kaspersky-labs.com, direct
 host-suffix, lex.download.prss.microsoft.com, 国内服务
 host-suffix, lexuat.download.prss.microsoft.com, 国内服务
+host, localhost.work.weixin.qq.com, direct
 host-suffix, ls.apple.com.edgesuite.net, Apple
 host-suffix, mbs.download.prss.microsoft.com, 国内服务
 host-suffix, mpnbenefits.download.prss.microsoft.com, 国内服务
@@ -79,6 +80,7 @@ host-suffix, hbo.com.edgesuite.net, HBO
 host, images-daznservices-com.cdn.ampproject.org, 其他海外媒体
 host-suffix, localhost.ptlogin2.qq.com, direct
 host-suffix, localhost.sec.qq.com, direct
+host, localhost.weixin.qq.com, direct
 host, netease.ugcvideoss.ourdvs.com, 网易云音乐
 host, netflix.com.edgesuite.net, Netflix
 host-suffix, netflix.com.edgesuite.net, Netflix
@@ -201,8 +203,6 @@ host-suffix, dcg.microsoft.com, 国内服务
 host-suffix, ditu.live.com, 国内服务
 host, dota2.wmsj.cn, Steam下载
 host-suffix, dota2.wmsj.cn, Steam商店
-host, download.microsoft.com, Microsoft
-host-suffix, download.microsoft.com, 国内服务
 host, firebase-settings.crashlytics.com, 国内服务
 host-suffix, gcp.gvt2.com, Google
 host-suffix, gemini.google.com, 其他海外媒体

@@ -1,5 +1,5 @@
 # OX / Speedtest; generated from pinned source and local edits; GPL-2.0
-# Source: blackmatrix7/ios_rule_script @ d8363caa2c1e47fb735615316032bed3f475ee57
+# Source: blackmatrix7/ios_rule_script @ f9e403a75bbc4bee939c6d8dd766cf78f1b512f3
 # Original source and license: sources/upstream/; modifications: policy binding, normalization, exact deduplication.
 host, speed.dler.io, 测速
 host-suffix, ooklaserver.net, 测速

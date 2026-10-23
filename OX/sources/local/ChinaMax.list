@@ -11,3 +11,9 @@ ip-cidr, 43.92.0.0/17, 国内服务
 ip-cidr, 43.93.0.0/16, 国内服务
 ip-cidr, 43.94.0.0/15, 国内服务
 ip-cidr, 43.96.0.0/11, 国内服务
+# 2026-10-23: preserve prior SG allocation coverage, do not expand to new /44.
+# https://rdap.apnic.net/ip/240b:4006:1100::1 : ASEPL-SG, SG.
+# https://rdap.lacnic.net/rdap/ip/189.24.118.1 and /189.24.121.1 : AKARI-DE, DE.
+# The DE additions and SG covering prefix are excluded in exclusions.json.
+ip6-cidr, 240b:4006:1104::/46, 国内服务
+ip6-cidr, 240b:4006:110c::/46, 国内服务
